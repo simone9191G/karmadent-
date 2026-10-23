@@ -1,9 +1,9 @@
 /*
-  COLLEGAMENTO AL DATABASE (Supabase)
-  Incolla qui i due valori che trovi in Supabase → Project Settings → API.
-  Vedi la GUIDA, passo 4.
+  COLLEGAMENTO AL DATABASE (Supabase) — progetto "karmadent"
+  La chiave qui sotto è quella pubblica ("anon"): è fatta per stare nel sito.
+  I dati sono protetti dalle regole impostate su Supabase.
 */
 window.KD_CONFIG = {
-  supabaseUrl: "INSERISCI_QUI_PROJECT_URL",      // es. https://abcdefgh.supabase.co
-  supabaseKey: "INSERISCI_QUI_ANON_PUBLIC_KEY"   // la chiave "anon" / "public" (NON la service_role)
+  supabaseUrl: "https://lmdwelbredtqnkennpna.supabase.co",
+  supabaseKey: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImxtZHdlbGJyZWR0cW5rZW5ucG5hIiwicm9sZSI6ImFub24iLCJpYXQiOjE3OTI3NTcxNzEsImV4cCI6MjEwODMzMzE3MX0.yilTh3BpvNUESbudjk_q47xs26yJc6WtfxXkUx51PgM"
 };
